@@ -6,7 +6,7 @@
 using namespace std;
 
 
-int answer(int m, int n, int t)
+string answer(int m, int n, int t)
 {
   int factorial = 1;
   int product = n;
@@ -17,8 +17,7 @@ int answer(int m, int n, int t)
       {
         if(factorial > m)
         {
-          cout << "TLE" << endl;
-          return 0;
+          return "TLE";
         }
         factorial *=i;
       }
@@ -27,8 +26,7 @@ int answer(int m, int n, int t)
     case 2:
     if (exp2(n) > m)
     {
-      cout << "TLE" << endl;
-      return 0;
+      return "TLE";
     }
 
     break;
@@ -39,8 +37,7 @@ int answer(int m, int n, int t)
       product*=n;
       if(product > m)
       {
-        cout << "TLE" << endl;
-        return 0;
+        return "TLE";
       }
     }
     break;
@@ -51,8 +48,7 @@ int answer(int m, int n, int t)
       product*=n;
       if(product > m)
       {
-        cout << "TLE" << endl;
-        return 0;
+      return "TLE";
       }
     }
 
@@ -64,8 +60,7 @@ int answer(int m, int n, int t)
       product*=n;
       if(product > m)
       {
-        cout << "TLE" << endl;
-        return 0;
+        return "TLE";
       }
     }
 
@@ -74,8 +69,7 @@ int answer(int m, int n, int t)
     case 6:
     if((n*log2(n))>m)
     {
-      cout << "TLE" << endl;
-      return 0;
+    return "TLE";
     }
 
     break;
@@ -83,29 +77,33 @@ int answer(int m, int n, int t)
     case 7:
     if(n > m)
     {
-      cout << "TLE" << endl;
-      return 0;
+      return "TLE";
     }
 
     break;
 
   }
-  cout << "AC" << endl;
-  return 0;
+  return "AC";
 }
 
 void test()
 {
-  /*int m = 100000000, n = 500, t = 2;
-  assert(answer(m,n,t) == );
-  cout << "All test cases passed " << endl;*/
+  int m = 100000000, n = 500, t = 2;
+  int a = 100000000, b = 1000, c = 3;
+  int d = 180000000, e = 5, f = 2;
+
+  assert(answer(a,b,c) == "TLE");
+  assert(answer(m,n,t) == "TLE");
+  assert(answer(d,e,f) == "AC");
+
+  cout << "All test cases passed... " << endl;
 }
 
 void kattis()
 {
   int m, n, t;
   cin >> m >> n >> t;
-  answer(m,n,t);
+  cout << answer(m,n,t);
 }
 
 int main(int argc, char* argv[])
@@ -116,17 +114,6 @@ int main(int argc, char* argv[])
       kattis();
   return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
