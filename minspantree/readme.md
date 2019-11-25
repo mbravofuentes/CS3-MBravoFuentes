@@ -1,0 +1,3 @@
+  - Solve and submit minspantree problem: https://open.kattis.com/problems/minspantree  to the online judge. (85 points)
+  - Write at least 3 unique unit test cases (besides the ones provided by the problem) using assert function and call them from main given an argument to main such as "test" as demonstrated in the demo solutions. (3*5 = 15 points)
+  - Total 100 Points
