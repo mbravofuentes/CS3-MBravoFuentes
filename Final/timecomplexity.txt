@@ -1,0 +1,42 @@
+First 100000 numbers
+
+BSTFind 1.5 milliseconds
+QuickSort_Avg 12334.4 milliseconds
+ShellSort_Avg 44.6 milliseconds
+MergeSort_Avg 17975.4 milliseconds
+HEAPSORT_AVG 16460.6 milliseconds
+SelectionSort_AVG 0 milliseconds
+InsertionSort_AVG 15053.4 milliseconds
+DefaultSort 18.7 milliseconds
+StableSort_Avg 15.7 milliseconds
+BinarySearchAVG 0 milliseconds
+SequentialSearch 1 milliseconds
+BubbleSort_AVG 52555.6 milliseconds
+second 500000 numbers
+
+BSTFind 4 milliseconds
+QuickSort_Avg 331210.5 milliseconds
+ShellSort_Avg 242.7 milliseconds
+MergeSort_avg 436788 milliseconds
+HEAPSORT_AVG 1043030.1 milliseconds
+SelectionSort_AVG 5 milliseconds
+InsertionSort_AVG 55313.5 milliseconds
+DefaultSort 43.2 milliseconds
+StableSort_Avg 25.2 milliseconds
+BinarySearchAVG 4.2 milliseconds
+SequentialSearch 3 milliseconds
+BubbleSort_AVG 1035123.6 milliseconds
+Third 1000000 numbers
+
+BSTFind 10.3 milliseconds
+QuickSort_Avg 609432.6 milliseconds
+ShellSort_Avg 453.5 milliseconds
+MergeSort_Avg 634029.2 milliseconds
+HEAPSORT_AVG 2032540.2 milliseconds
+SelectionSort_AVG 15.3 milliseconds
+InsertionSort_AVG 1023412 milliseconds
+DefaultSort 324.2 milliseconds
+StableSort_Avg 43.3 milliseconds
+BinarySearchAVG 10.3 milliseconds
+SequentialSearch 12.4 milliseconds 
+BubbleSort_AVG 3231234.8 milliseconds
